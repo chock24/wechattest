@@ -1,0 +1,9 @@
+.ui-tabs .ui-tabs-nav{padding:0;}
+.ui-tabs{padding:0;border:0;}
+.ui-tabs .ui-tabs-nav li a{padding:3px 8px;}
+.ui-widget-header{background:none;}
+.ui-tabs .ui-tabs-nav{border:0;}
+.ui-tabs .ui-tabs-panel{padding:0 5px;border:5px solid #4f9bc6;}
+.ui-tabs .ui-tabs-nav li{border:0;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{background:#4f9bc6;}
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a{color:#FFF;}

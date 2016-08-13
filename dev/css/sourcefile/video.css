@@ -1,0 +1,62 @@
+/*视频素材*/
+.video_file {
+    float: left;
+    width: 295px;
+}
+.video_file_ct {
+    padding: 14px 11px;
+}
+.video_file .title {
+    margin: 0;
+    padding: 0;
+    color: #8d8d8d;
+    font-weight: 400;
+}
+.video_file .video_date {
+    line-height: 20px;
+    font-size: 13px;
+}
+.video_file .video_date em {
+    color: #8d8d8d;
+    font-style: normal;
+    font-weight: 400;
+}
+.video_info {
+    margin-top: 6px;
+}
+.video_info video {
+    float: left;
+    height: 170px;
+}
+.video_info img {
+    float: left;
+    width: 271px;
+    height: 170px;
+}
+.video_file_ct .video_info .time {
+    margin: -26px 0 0;
+    padding-right: 10px;
+    float: left;
+    width: 261px;
+    text-align: right;
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    background: #000;
+    z-index: 999;
+}
+.video_ft {
+    height: 44px;
+    line-height: 44px;
+    border-left-width: 0;
+}
+.video_ft ul li {
+    width: 24.6%;
+    border-left: 1px solid #e7e7eb;
+}
+.video_ft ul li a {
+    padding-top: 10px;
+    height: 34px;
+}

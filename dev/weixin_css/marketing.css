@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS 营销工具 */
+
+/*签到*/
+.sign-in-explain {line-height: 20px;border: 1px solid #e7e7eb;}
+.sign-in {}
+/*转发有奖*/
+.forward-prize-step {}
+.forward-prize-step-bj {height: 16px;background: url(../weixin_image/forward_prize_step_bj.jpg) left top repeat-x;border: solid #c7c7c7;border-width: 0 1px;border-radius: 5px;}
+.forward-prize-step a {margin-top: -34px;position: relative;display: block;float: left;width: 48px;text-align: center;height: 50px;line-height: 50px;font-size: 26px;color: #fff;font-weight: bold;text-shadow: -1px -1px 0px #666;background: url(../weixin_image/forward_prize_step.png) 0 -112px no-repeat;}
+.forward-prize-step a.forward-prize-step-one {margin-left: 60px;}
+.forward-prize-step a.forward-prize-step-two {margin-left: 425px;}
+.forward-prize-step a.forward-prize-step-three {margin-right: 60px;float: right;}
+.forward-prize-step a.forward-prize-step-ok {background-position: 0 -2px;}
+.forward-prize-step a.forward-prize-step-on {background-position: 0 -57px;}
+.forward-prize {}
+.forward-prize  textarea {width: 100%;height: 100px;}
+/*转发的用户列表*/
+.transpond-user-list {}
+.transpond-user-list h3 {padding-bottom: 10px;border-bottom: 1px solid #dcdcdc;}
+.transpond-user-list-cont {padding-top: 5px;overflow: hidden;width: 1120px;}
+.transpond-user-list-cont-list {margin: 5px 5px 0 0;padding: 4px 5px;float: left;width: 351px;background: #eee;border: 1px dashed #ccc;}
+.transpond-user-list-cont-list span {display: block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;float: left;max-width: 160px;height: 17px;}
+.transpond-user-list-cont-list span b {color: #08c;font-weight: normal;}
+.transpond-user-list-cont-list em {display: block;float: right;}
+
+/*海报管理*/
+.poster-banner {}
+.poster-banner-tit {margin: 0 0 10px;height: 20px;line-height: 20px;font-size: 16px;}
+.poster-banner-tit label {color: #666;}
+.poster-banner-com {}
+.poster-banner-com h4 {padding: 20px 0;height: 35px;line-height: 35px;font-size: 16px;}
+.poster-banner-com h4 strong {font-size: 14px;}
+.poster-banner-com li {margin-bottom: 20px;padding: 10px 10px 10px 120px;position: relative;min-height: 80px;border: #ccc solid 1px;box-shadow: 0 0 3px #dcdcdc;border-radius: 4px;}
+.poster-banner-com li label {margin: -20px 0 0;position: absolute;top: 50%;left: 0;width: 80px;text-align: right;height: 40px;line-height: 40px;font-size: 16px;text-shadow: 0 0 2px #dcdcdc;}
+.poster-banner-com-img {float: left;max-width: 160px;height: 80px;}
+.poster-banner-com-img i {display: block;width: 160px;text-align: center;height: 80px;line-height: 80px;font-size: 16px;color: #c0c0c0;background: #ececec;}
+.poster-banner-com li img {max-width: 160px;height: 80px;}

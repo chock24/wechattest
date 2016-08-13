@@ -1,0 +1,46 @@
+/*消息管理页面*/
+
+.advices_control {
+    margin-bottom: 20px;
+    padding: 15px;
+    overflow: hidden;
+    border: #e7e6eb solid 1px;
+}
+.advices_img {
+    margin-right: 15px;
+    overflow: hidden;
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+.advices_img img {
+    width: 64px;
+    height: 64px;
+}
+.advices_text {
+}
+.advices_text .title {
+    margin: 3px 0 4px 0;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.advices_user,.advices_date {
+    float: left;
+}
+.advices_date {
+    margin-left: 50px;
+    color: #88898b;
+}
+.reply_text {
+    overflow: hidden;
+}
+.reply_text p {
+    margin: 5px 0 0;
+    padding: 0;
+}
+.reply_text img {
+    margin-right: 10px;
+    max-width: 220px;
+}

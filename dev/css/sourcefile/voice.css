@@ -1,0 +1,67 @@
+.voice_bd {
+    overflow: hidden;
+}
+.voice_bd .voice_file {
+    width: 171px;
+}
+.voice_bd .voice_file .voice_file_ct {
+    padding: 14px 11px;
+}
+.voice_bd .voice_file .voice_file_ct .voice_info {
+    margin: 14px 0 5px;
+}
+.voice_bd .voice_file .voice_file_ct .voice_info audio {
+    display: none;
+}
+.voice_bd .voice_file .voice_file_ct .voice_info embed {
+    display: none;
+}
+.voice_bd .voice_file .voice_file_ct .voice_info .icon_info {
+    display: block;
+    width: 148px;
+    height: 148px;
+    background-color: #d7d8da;
+    background-image: url(../../images/icon-info.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.voice_bd .voice_file .voice_file_ct .voice_info .sp_pause {
+    margin-top: -148px;
+    position: relative;
+    display: none;
+    width: 148px;
+    height: 148px;
+}
+.voice_bd .voice_file .voice_file_ct .voice_info .icon_info.gif_icon {
+    background-image: url(../../images/icon-info.gif);
+}
+.voice_bd .voice_file .voice_file_ct .voice_info .icon_info:hover {
+    background-color: #c5c6c8;
+}
+.voice_bd .voice_file .voice_file_ct .voice_info .desc {
+    margin: -24px 10px 0 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    width: 139px;
+    text-align: right;
+    color: #8d8d8d;
+}
+.voice_bd .voice_file .langue_title {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: #333;
+}
+.voice_bd .voice_file .desc {
+    margin: 2px 0 0;
+    padding: 0;
+    font-weight: normal;
+    color: #8d8d8d;
+}
+.voice_bd .voice_ft {
+    height: 30px;
+}
+.voice_bd .voice_ft ul li {
+    width: 25%;
+}

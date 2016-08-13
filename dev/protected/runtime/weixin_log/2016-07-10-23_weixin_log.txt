@@ -1,0 +1,8 @@
+'<xml>
+<ToUserName><![CDATA[gh_7b5e352ca2fd]]></ToUserName>
+<FromUserName><![CDATA[oqKXDjnqpGnEM90H37bILbsb7gSc]]></FromUserName>
+<CreateTime>1468165618</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+</xml>{"errcode":40001,"errmsg":"invalid credential, access_token is invalid or not latest hint: [IVZI.a0639rsz3]"}'
+

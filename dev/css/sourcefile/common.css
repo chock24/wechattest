@@ -1,0 +1,57 @@
+ul ,li {margin: 0;padding: 0;list-style-type: none;}
+a {text-decoration: none;}
+.whole_message {margin-bottom: 0;overflow: hidden;}
+/*sidebar*/
+.sidebar {margin-top: 10px;float: left;width: 215px;background: #fff;border: #e7e7eb solid 1px;border-left-width: 0;}
+.sidebar dl dd {margin: 0;padding: 0;width: 100%;}
+.sidebar dl dd:hover {background: #f4f5f9;}
+.sidebar dl dd a {margin: 0;padding: 0 0 0 14px;display: inline-block;overflow: hidden;width: 120px;height: 33px;line-height: 33px;color: #222;}
+.sidebar dl dd:hover .fu_icon {display: block;}
+.sidebar .delete-gather-item,.sidebar .update-gather-item {margin-top: 6px;*margin-top: -27px;display: none;float:right;width: 20px!important;height: 22px;}
+
+/*common*/
+#content .content {margin-top: 10px;float: left;width: 80%;background: #fff;border: #e7e7eb solid 1px;}
+.block_file {margin: 0 10px 20px;float: left;}
+.block_file_ct {overflow: hidden;background-color: #fff;border: 1px solid #e7e7eb;}
+
+/*block功能图标*/
+.function {background-color: #f4f5f9;border: solid #e7e7eb;border-width: 0 1px 1px;}
+.function li {float: left;}
+.function li a {display: block;width: 100%;text-align: center;}
+.fu_icon {margin-top: 5px;display: block;width: 100%;height: 18px;background: url(../../images/icon.png) 0 0 no-repeat;}
+.modify {background-position: center -61px;}/*编辑*/
+.modify:hover {background-position: center -89px;}
+.move {background-position: center -178px;}/*移动*/
+.move:hover {background-position: center -206px;}
+.del {background-position: center -5px;}/*删除*/
+.del:hover {background-position: center -33px;}
+.download {background-position: center -119px;}/*下载*/
+.download:hover {background-position: center -147px;}
+
+/*按鈕*/
+.inp_style {margin: 0 8px 7px 0;display: inline-block;min-width: 100px;text-align: center;height: 30px;line-height: 27px;font-size: 14px;color: #000;font-weight: 400;background: #fff;border: #e6e7ec solid 1px;border-radius: 3px;}
+.inp_style:hover,.active-btn{color: #fff;background-color: #44b549;border-color: #44b549;}
+
+
+/*分页*/
+.list-view .pager {padding-bottom: 5px;overflow: hidden;width: 100%;height: 30px;line-height: 30px;}
+
+/*欢迎语*/
+
+.select-item {
+    cursor: pointer;
+    position: relative;
+}
+.current .sign{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/sign_icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000;/*兼容ie8-7*/
+    filter:alpha(opacity=70);
+    background-color: rgba(0,0,0,0.5);
+}

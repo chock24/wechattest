@@ -1,0 +1,168 @@
+/*----------------操作弹出层----------------*/
+.operation{
+    display: none;
+}
+.operation-close{
+    background: #fff;
+    border: 1px solid #666;
+    border-radius: 25px;
+    height:25px;
+    width: 25px;
+    color:#333;
+    position: absolute;
+    text-align: center;
+    line-height: 25px;
+    z-index: 102;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.operation-shadow{
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter:alpha(opacity=40);
+    opacity: 0.4;
+    z-index: 100;
+}
+.operation-section{
+    background: #fff;
+    padding: 15px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    width: 1000px;
+    min-height: 500px;
+    //overflow: auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -257px;
+    margin-left: -507px;
+    z-index: 101;
+    overflow: auto;
+}
+
+/*-------------弹出层内容部分---------------*/
+.content-menu ul{
+    list-style: none;
+}
+.content-menu li a{
+    background: #fff;
+    border:1px solid #ccc;
+    padding: 5px 10px;
+    display: block;
+    color:#999;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+.content-menu li a:hover{
+    color:#333;
+    background: #eee;
+}
+
+.content-view{
+    margin: 10px 21px 0 21px;
+}
+
+.main-part{
+    width:79%;
+    border: 1px solid #ccc;
+}
+.sidebar-part{
+    width:19%;
+    border: 1px solid #ccc;
+}
+/*---------------素材分组列表样式-----------------*/
+.gather-item:hover{
+    background: #ebebeb;
+}
+.gather-item a{
+    color:#999;
+    padding: 5px 10px;
+    display: block;
+}
+
+/*---------------单图文样式-----------------*/
+.news-item{
+    width:200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 15px;
+}
+.news-item img{
+    margin: 0 auto;
+    width:200px;
+    height:150px;
+}
+.news-item p{
+    line-height: 20px;
+    margin: 0;
+}
+
+/*---------------多图文样式-----------------*/
+.more-news-item{
+    width:200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 15px;
+}
+.more-news-item p{
+    line-height: 20px;
+    margin: 0;
+}
+.more-news-item .cover{
+    position: relative;
+}
+.more-news-item .cover p{
+    position: absolute;
+    bottom: 0;
+    background: #000;
+    color:#fff;
+    width:95%;
+    padding-left:5%;
+    line-height: 25px;
+}
+.more-news-item .cover img{
+    margin: 0 auto;
+    width:200px;
+    height:150px;
+}
+.more-news-item .item{
+    border-bottom:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+    padding: 5px 0;
+}
+.more-news-item .item p{
+    line-height: 50px;
+    padding-left: 10px;
+}
+.more-news-item .item img{
+    width:50px;
+    height:50px;
+}
+
+/*-------------选项-------------*/
+.option{
+    cursor: pointer;
+    position: relative;
+}
+.selected .checked-item{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/sign_icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000;/*兼容ie8-7*/
+    filter:alpha(opacity=70);
+    background-color: rgba(0,0,0,0.5);
+}
+.option:hover{
+    background: #f1f3f1;
+}

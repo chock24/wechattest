@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* 营销工具模块样式 */
+
+/*新建文章*/
+.marketing_add_article {background: #fefdfd;border: 1px solid #e7e7e7;}
+.marketing_add_article .add_article_list {margin-top: -1px;overflow: hidden;min-height: 60px;line-height: 60px;border-top: 1px solid #e2e2e2;}
+.marketing_add_article .add_article_list label {margin-right: 5px;padding-left: 30px;display: inline-block;*display: inherit;min-width: 96px;text-align: right;font-size: 16px;color: #666;}
+.marketing_add_article .add_article_list label .required {color: red;}
+.marketing_add_article .add_article_list select {padding: 6px 8px;min-width: 145px}
+.marketing_add_article .add_article_list .textarea {margin: 10px 4px;width: 800px;}
+.add_article_list_img {margin: 10px 14px 10px 2px;overflow: hidden;float: left;width: 100px;text-align: center;height: 100px;border: solid 1px #dcdcdc;}
+.add_article_list_img i {padding: 10px 0;display: block;width: 100%;height: 80px;text-align: center;line-height: 38px;font-size: 20px;color: #666;background: #eee;}
+.add_article_list_img img {width: 100%;min-height: 100px;}
+
+/*礼品商城*/
+.zoom-limits-img {width: 50px;height: 30px;}
+
+/*分类管理*/
+.classify {}
+.classify-tit {height: 40px;line-height: 40px;background: #f5f5f5;border: #e5e5e5 solid 1px;}
+.classify-con {}
+.classify-con-nav {float: left;width: 1117px;font-size: 12px;border: #e5e5e5 solid;border-width: 0 1px 1px;}
+.classify-con-nav .classify-con-nav-li {margin-top: -1px;padding: 5px 10px;min-height: 30px;line-height: 30px;border-top: #e5e5e5 solid 1px;}
+.classify-con-nav .classify-con-nav-li ul {margin-top: 5px;overflow: hidden;background: #f5f5f5;}
+.classify-con-nav .classify-con-nav-li li {margin: -1px 10px 0 0;padding: 2px 5px;overflow: hidden;float: left;}
+
+/*会员中心模块*/
+.app-sudoku-table {border: 1px solid #e2e2e2;}
+.app-sudoku-table .add-sudoku-table-img {margin-left: 5px;color: #08c;}
+.app-sudoku-table table {width: 100%;font-size: 14px;color: #666;}
+.app-sudoku-table table tr:nth-child(2n) {background: #f8f9fa;}
+.app-sudoku-table table th {text-align: center;height: 36px;line-height: 36px;color: #666;font-weight: normal;background: #f7f7f7;}
+.app-sudoku-table table td {padding: 5px 0;text-align: center;}
+.app-sudoku-table table td img {width: 40px;height: 40px;}
+
+/*会员详情页*/
+.member-center {overflow: hidden;}
+.member-center-data {padding: 15px 20px;position: relative;float: left;width: 400px;height: 70px;font-size: 12px;color: #666;background: #fff;border: #e5e5e5 solid 1px;border-radius: 8px;}
+.member-center-data-avatar {margin-top: 4px;float: left;width: 64px;height: 64px;}
+.member-center-data-tex {margin-left: 10px;float: left;width: 260px;}
+.member-center-data-tex p {padding: 2px 0;height: 20px;line-height: 20px;}
+.member-center-data-tex p span {margin-left: 10px;}
+.member-center-data-tex a {position: absolute;bottom: 15px;right: 20px;font-size: 14px;}
+.coupon-integral {margin-left: 30px;padding: 0 20px;overflow: hidden;float: left;width: 600px;height: 100px;font-size: 15px;color: #666;background: #fff;border: #e5e5e5 solid 1px;border-radius: 8px;}
+.coupon-integral li {margin-bottom: -1px;padding: 7px 0;height: 36px;line-height: 36px;border-bottom: #ccc dashed 1px;}
+.shipping-address {margin-top: 20px;padding: 10px 15px;background: #fff;border: #ccc solid 1px;border-left: #1383e5 solid 3px;}
+.shipping-address-tit {margin-bottom: 5px;padding-bottom: 5px;text-indent: 5px;height: 30px;line-height: 30px;font-size: 18px;color: #333;font-weight: bold;border-bottom: #ccc solid 1px;}
+.shipping-address ul {color: #666;}
+.shipping-address ul li {line-height: 26px;font-size: 14px;}
+
+/*优惠劵列表页*/
+.oppe-coupon {}
+.oppe-coupon li {margin: 10px;padding: 5px 10px;float: left;width: 335px;height: 100px;font-size: 14px;color: #47afd4;border: #47afd4 solid;border-width: 2px 0;}
+.oppe-coupon li.oppe-coupon-overdue {color: #ccc;border-color: #ccc;}
+.oppe-coupon li.oppe-coupon-overdue a {color: #ccc;}
+.oppe-coupon li h3 em {font-size: 30px;font-weight: bold;}
+.oppe-coupon li h3 span {margin-left: 25px;font-weight: bold;}
+.oppe-coupon li p {line-height: 26px;}
+.oppe-coupon li p span {display: block;float: left;width: 80px;}
+
+/*新增礼品--上传礼品详情图片*/
+.gift_details_file {margin: 14px 0 0 5px;position: relative;float: left;overflow: hidden;width: 112px;}
+.gift_details_file input.upload {  position: absolute;top: 0;right: 0;display: block;width: 112px;height: 25px;font-size: 100px;opacity: 0;filter:alpha(opacity=0);cursor: pointer;}
+.gift_details_file_con {margin: 0 5px;padding: 4px 0;float: left;}
+.gift_details_file_con li {margin-right: 10px;position: relative;float: left;width: 60px;height: 60px;}
+.gift_details_file_con li a {position: absolute;top: 0;right: 0;display: none;width: 20px;text-align: center;height: 20px;line-height: 20px;font-size: 14px;color: #666;background: #fff;border: #dcdcdc solid 1px;}
+.gift_details_file_con li:hover a {display: block;}
+.gift_details_file_con li img {width: 60px;height: 60px;}

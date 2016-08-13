@@ -1,0 +1,203 @@
+﻿@charset "utf-8";
+
+/*分享链接头部*/
+.shared_links {padding-bottom: 1rem;background: #fff;}
+.shared_links_head{padding: 2.15rem 1.3rem 2rem;overflow:hidden;}
+.shared_links_head .head_img{margin: 0 auto;overflow: hidden;display: block;width:7.6rem;height: 7.6rem;border: #dfad3a solid 1px;border-radius: 100%;box-shadow: 0 0 6px #dbdad8;}
+.shared_links_head .head_img img{width:100%}
+.shared_links_head h2{margin: 0.75rem 0 0;text-align: center;font-size:1.85rem;color: #333333;}
+/*分享链接中部内容*/
+.shared_links_cont{margin: 0 auto;width: 22.15rem;}
+.shared_links_cont .shared_links_img{height: 22.15rem;}
+.shared_links_cont .shared_links_img img{width:100%;}
+.shared_links_cont .shared_links_hi{margin-top: 1.8rem;font-size: 1.5rem;color: #333333;}
+.shared_links_cont .shared_links_hi span{display: block;line-height: 2.4rem;}
+/*欧派礼品商城头部*/
+.wrap_gifts{background: #fff;}
+.gift_shop_head{padding:1.4rem 0;overflow: hidden;background: #fff;border-bottom: 1px solid #d7d7d7;}
+.gift_shop_head .head_wd{width: 24.6rem;margin: 0 auto;}
+.gift_shop_head .op_logo{width: 8.3rem;height: 1.7rem;margin-left:3rem;float: left;overflow:hidden;}
+.gift_shop_head .op_logo img{width: 100%;}
+.gift_shop_head h2{margin-left:0.85rem;font-size:1.5rem;color:#333333;line-height: 1.5rem;float: left;}
+.gift_shop_cont{}
+/*积分商城类型标题*/
+.type_name{padding: 0.65rem 0 0.4rem 0.95rem;overflow:hidden;text-align: center;background: #fff;}
+.type_name a {display: inline-block;*display: inline;width: 7rem;height: 2.4rem;margin-right:1.03rem;line-height:2.4rem;font-size:1.2rem;color:#939393;text-align:center;border-radius: 50rem;}
+.type_name .type_bg,.type_name a:hover {background: #ff9524;color: #fff;}
+/*欧派礼品商城礼品列表*/
+.gift_list_out{padding:1.15rem 0.7rem;}
+.gift_list_out_con {overflow: hidden;background: #fff;}
+.gift_list{padding:0 0.55rem 0 0.7rem;overflow: hidden;position: relative;background: #fff;border-bottom:1px solid #d7d7d7;}
+.gift_list div{float: left;}
+.gift_list .gift_img{overflow: hidden;width:9.25rem;height: 9.5rem;}
+.gift_list .gift_img img{width: 100%;}
+.gift_list .gift_txt{width: 18rem;padding: 1.8rem 0 0 1.3rem;font-size: 1.2rem;}
+.gift_list .gift_txt span{display: block;line-height: 2rem;}
+.gift_list .gift_txt em{color: #ff1b35;font-weight: bold;}
+.gift_list .gift_txt .gift_list_del {font-size: 0.9rem;color: #929292;font-weight: normal;text-decoration:line-through;}
+.gift_list .exchange{position: absolute;top: 3.1rem;right: 1.1rem;display: block;float: right;width: 6.65rem;height:3.6rem;font-size:1.8rem;color:#fff;text-align:center;line-height:3.6rem;background:#ff9524;border-radius: 25rem;}
+
+/* -- 有奖活动 -- */
+.gtbio_bg {overflow: hidden;height: 16rem;}
+.gtbio_bg img {height: 16rem;}
+.gtbio_nav{/*height: 3.4rem;*/overflow: hidden;width: 100%;text-align: center; color: #797979;background: #fff;border-bottom: 1px solid #d7d7d7;}
+.gtbio_nav ul li{padding: 0.5rem 0;display: inline-block;*display: inline;width: 24%;text-align: center;font-size: 1.2rem;}
+.gtbio_nav ul li a {display:inline-block;width: 80%;height:2.4rem;line-height: 2.4rem;border-radius:5.25rem;vertical-align:middle;}
+.gtbio_nav ul li .cur{color: #fff;background: #ff9524;}
+.gtbio_con {padding: 0 1.25rem;overflow: hidden;background: #fff;}
+.gtbio_con ul li{margin-bottom: -1px;position:relative;height: 10.4rem;padding-top: 1.6rem;border-bottom: 1px solid #d7d7d7;}
+.gtbio_con ul li .pic{overflow: hidden;float:left;margin-right:1.2rem;width: 12.2rem; height: 8.8rem;}
+.gtbio_con ul li .pic img {width: 100%;}
+.gtbio_con ul li .tit{overflow: hidden;max-height: 3.1rem;font-size: 1.35rem; color: #000;}
+.gtbio_con ul li .timer{margin-top: 1rem;}
+.gtbio_con ul li .timer span{color: #939393;font-size: 1rem;}
+.gtbio_con ul li .timer img{margin-right:5px;width: 1.2rem; height: 1.2rem;vertical-align: middle;}
+.different{margin-top:0.6rem;height: 1.8rem;line-height: 1.8rem;text-align: right;}
+.different span{margin-right:3px;font-size: 1rem; color: #939393;}
+.different img{float: left;width: 1.4rem;vertical-align:middle;}
+.different .person{display:block;float: right;color: #ff9524; font-size: 1rem;line-height: 1.4rem;}
+.different .star{margin-right:5px;display: block;float: left;height: 1.5rem;line-height: 1.5rem;}
+.different .star span {margin-top: 0.1rem;float: left;}
+
+/* -- 全屋家居 -- */
+.the_house_head{overflow: hidden;height: 16rem;}
+.the_house_out{background:#fff;overflow:hidden;}
+.the_house_center {overflow: hidden;height: 16rem;}
+.the_house_list{border-bottom:1px solid #d7d7d7;}
+.the_house_list a {padding: 1.1rem 0.85rem 1.2rem;position: relative;display: block;min-height:5.65rem;background:#fff;overflow:hidden;}
+.the_house_list .the_house_cont{padding: 0.5rem 9.2rem 0 0;}
+.the_house_list .the_house_cont span{display:block;}
+.the_house_list .the_house_cont h3 {margin: 0 0 1.6rem;font-size:1.4rem;color:#333;}
+.the_house_list .the_house_cont .the_house_txt{font-family:"宋体";font-size:1rem;color:#939393;line-height: 1.3rem;}
+.the_house_cont .the_house_txt em {margin-left:1rem;color:#ff1b35;}
+.the_house_list .the_house_img{position: absolute;top: 1.3rem;right: 1.25rem;overflow: hidden;width: 7.8rem;height:5.65rem;float:right;}
+
+/* -- 邀请好友 -- */
+.user_level {margin: 0 auto;width: 32rem;}
+.invitation{background:#fff;padding: 2.3rem 1rem 0; }
+.invitation_user {margin-top: 2.4rem;float: left;width:7.1rem;height: 7.1rem;}
+.invitation .invitation_tit{float: left;vertical-align: top;margin: 3.2rem 0 0 1.5rem;color: #000; font-size: 1.8rem;}
+.invitation_tit .invitation_nav{position:relative; top:3.5rem;left:2rem;height: 2.1rem;}
+.invitation_tit .inv_gray{position:relative;width: 15rem;height:0.3rem; background: #e6e6e6;}
+.invitation_tit .inv_red{position: relative;width: 2rem;height: 0.3rem; background: #ff1b35;}
+.invitation_tit .inv_red .inv_box{display:block;position:relative;width:2.1rem; height: 2.1rem;font-size: 1rem;line-height: 2.1rem;color: #939393;  border-radius: 100%;text-align: center;background: #e6e6e6;}
+.invitation_tit .inv_red .inv_v1{top:-1.05rem;left:-2rem;}
+.invitation_tit .inv_red .inv_v2{top:-3.15rem;left:3rem;}
+.invitation_tit .inv_red .inv_v3{top:-5.25rem;left:8rem;}
+.invitation_tit .inv_red .inv_v4{top:-7.35rem;left:13rem;}
+.invitation_nav .inv_num{position:absolute;top:-3.5rem;right: -1.3rem;width: 3.15rem;}
+.invitation_nav .inv_num .inv_shu{position:relative;top:-2.1rem;display: inline-block;width: 100%;text-align: center;font-size:1.2rem; color: #ff1b35; }
+.invitation_tit .inv_red .inv_cur{background: #ff1b35; color: #fff;}
+.invitation .invitation_wz{margin-top:4.1rem;text-align: center;font-size: 1.2rem; color: #939393; line-height: 1.6rem;}
+.invitation .invitation_wz p {color: #000;}
+.invitation .invitation_wz p span{color: #ff1b35;}
+.invitation .invitation_erweima{width: 22.15rem;text-align: center;margin: 2.4rem auto 1.6rem;}
+.invitation .invitation_character{padding-bottom: 1.7rem;font-size: 1.2rem; color: #000;text-align: center;}
+.invitation_bottom_but {position: relative;height: 3.9rem;line-height: 3.9rem;border-top: #e9eaec solid 0.45rem;}
+.invitation_bottom_but a {position: absolute;width: 100%;text-indent: 2rem;height: 100%;font-size: 1.2rem;color: #333;}
+.invitation_bottom_but span {margin-top: -0.5rem;position: absolute;top: 50%;right: 2rem;display: block;width: 0.6rem;height: 1.05rem;background: url(/images/font/icon/sonar_map_icon.png) no-repeat center top /100% 100%;}
+
+/* -- 每日一读 -- */
+.adaily_reading_header {height: 8.6rem;}
+.day_read_user {padding-bottom: 2rem;}
+.day_read_con {padding: 0 1.3rem;border-top: #e9eaec solid 1rem;}
+.day_read_tit {margin: 0.8rem 0;overflow: hidden;border: 0;}
+
+/* -- 商品详情 -- */
+.description {padding: 0 1.25rem;}
+.goods_top{padding-top: 23rem;overflow: hidden;background: #fff;}
+/*头部图片*/
+@keyframes goodsTopImg_sh{0% {opacity: 1;}25% {opacity: 0.875;}50% {opacity: 0.75;}75% {opacity: 0.625;}100% {opacity: 0.5;}}
+@-webkit-keyframes goodsTopImg_sh{0% {opacity: 1;}25% {opacity: 0.875;}50% {opacity: 0.75;}75% {opacity: 0.625;}100% {opacity: 0.5;}}
+@keyframes goodsTopImg_sh2{0% {opacity: 0.5;}25% {opacity: 0.625;}50% {opacity: 0.75;}75% {opacity: 0.875;}100% {opacity: 1;}}
+@-webkit-keyframes goodsTopImg_sh2{0% {opacity: 0.5;}25% {opacity: 0.625;}50% {opacity: 0.75;}75% {opacity: 0.875;}100% {opacity: 1;}}
+.goods_top_img{margin: 0 auto;position: absolute;top: 0;left: 0;overflow: hidden;width: 100%;}
+.goods_top_img_com {margin-top: 1.8rem;overflow: hidden;width: 96rem;}
+.goods_top_img_com li {position: relative;display: block;float: left;width: 30rem;text-align: left;height: 21.2rem;}
+.goods_top_img_com li.on {margin: 0;z-index: 2;text-align: center;}
+.goods_top_img_com li img {margin-top: -9.9rem;position: absolute;top: 50%;display: block;width: 26.25rem;height: 19.8rem;opacity: 0.5;-webkit-transform-origin: center center;transform-origin: center center;}
+.goods_top_img_com li img.imgOn {animation: goodsTopImg_sh 0.5s linear forwards;-webkit-animation: goodsTopImg_sh 0.5s linear forwards;}
+.goods_top_img_com li img.imgOn2 {animation: goodsTopImg_sh2 0.5s linear forwards;-webkit-animation: goodsTopImg_sh2 0.5s linear forwards;}
+.goods_top_img_com li.on img {margin-left: -13.125rem;margin-top: -10.6rem;left: 50%;width: 26.250rem;height: 21.2rem;opacity: 1;}
+
+/*商品详情内容部分*/
+.goods_top .goods_txt{float: left;margin: 2.3rem 0 0 1.1rem;line-height: 3rem;}
+.goods_top .goods_txt .goods_tit{font-size:1.2rem;color: #333333;}
+.goods_top .goods_txt .goods_price{font-size:1rem;color:#929292;}
+.goods_txt .goods_price em{margin-right: 1rem;font-size:2.4rem;color:#ff1b35;}
+.goods_txt .goods_price i {font-size: 1rem;color: #929292;text-decoration:line-through;}
+.goods_top_cont .discont_img{float: right;width: 1.6rem;height: 1.6rem;margin: 3.5rem 2rem 0 0;}
+.goods_top .goods_change{margin:1.2rem auto 1.1rem;padding: 0 1.1rem;}
+.goods_top .goods_change a {display: block;width:100%;height:2.8rem;font-size:1.8rem;color:#fff;line-height:2.8rem;text-align:center;background:#ffa200;border-radius:0.4rem;}
+/*商品详情第二部分*/
+.goods_next{margin: 0 auto 3rem;overflow: hidden;}
+.goods_next .goods_detail{margin-top:0.8rem;background: #fff;overflow: hidden; }
+.goods_next .goods_detail a.goods_detail_tit {display: block;overflow: hidden;width: 100%;}
+.goods_next .goods_detail a.goods_detail_tit span{display:block;float:left;width:5.5rem;height:1.5rem;margin:1.3rem;font-size:1.2rem;color:#333333;background: #fff;}
+.goods_next .goods_detail .next_img{float:right;width: 0.6rem;height: 1.05rem;margin: 1.3rem;}
+.goods_detail_con {padding: 1.42rem 1.25rem;font-size: 1rem !important;color: #929292;background: #fff;border-top: #e6e6e6 solid 1px;}
+.goods_detail_con img {max-width: 100%;margin-bottom: 0.5rem;}
+.goods_detail_con p {max-width: 100%;}
+
+/*赚积分*/
+.toearn_points_bg {overflow: hidden;height: 16rem;}
+.toearn_points_con {overflow: hidden;padding: 0 1.25rem;}
+.toearn_points_con ul li{position: relative;overflow: hidden;height: 9.9rem;padding-top: 1.85rem;border-bottom: 1px solid #d7d7d7;}
+.toearn_points_con ul li a {position: absolute;width: 100%;height: 100%;}
+.toearn_points_con ul li .pic{display: block;float: left;width: 12.2rem;}
+.toearn_points_con ul li .tit{display: block;float: left;margin-left:1.6rem;color: #000; font-size: 1.5rem;vertical-align: top;}
+.toearn_points_con ul li .person{margin-top:20px;color: #ff9524; font-size: 1.2rem;}
+
+/* -- 我的分享 -- */
+.myShare{padding: 0.45rem 1.15rem 0;border-top: #e9eaec solid 2px;}
+.myShare .myShare_detail .myShare_pic{display:inline-block;width: 7.45rem;}
+.myShare .myShare_detail ul li{padding: 1.25rem 0;border-bottom: 1px solid #e6e6e6;}
+.myShare .myShare_detail ul li a {position: relative;display: block;width: 100%;}
+.myShare .myShare_detail .myShare_tit{position: absolute;top: 1rem;left: 0;display: block;width: 100%;text-indent: 9.1rem;vertical-align: top; }
+.myShare .myShare_detail .myShare_tit .myShare_title{font-size: 1.2rem;}
+.myShare .myShare_detail .myShare_tit .myShare_new{margin-top:1.25rem;font-size:0.9rem; color: #939393;}
+.myShare .myShare_detail .myShare_tit .myShare_new .myShare_data{margin: 0 2rem 0 0;float: right;}
+/* -- 提示分享遮罩 -- */
+.invite_friends{position: fixed;top: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.5);}
+.invite_friends .invite_friends_share{position:absolute;right:2rem;top:1.8rem;font-size: 1.2rem; color: #ffc600; text-align:center;}
+.invite_friends .invite_friends_pic{position:absolute;right:3rem;top:0.5rem;width: 2rem;}
+
+/* -- 我的关系 -- */
+.apply_list_hold{padding-top: 2.4rem;}
+.apply_list_user_con {position: relative;}
+.apply_list_user_con h3 {padding-bottom: 1.3rem;text-align: center;font-size: 1.2rem;color: #232d32;}
+.apply_list_hold .apply_list_user {margin: 0 auto 1rem;position:relative;border:0.2rem solid #d8d8d8;width: 5.6rem;height: 5.6rem;background: #dbdddc;border-radius: 100%;overflow: hidden;;}
+.apply_list_hold .apply_list_user_con a:before{content: '';display: block;position: absolute;right: 50%;bottom: -1rem;z-index: -1;width: 0.1rem;height: 1rem;background: #dbdee0;}
+
+.apply_list_head_con {margin-bottom: 3.1rem;position: relative;}
+.apply_list_hold .apply_list_head{position:relative;margin: 0 auto;border:0.3rem solid #d8d8d8;width: 11.35rem;height: 11.35rem;background: #dbdddc;border-radius: 100%;overflow: hidden;}
+.apply_list_hold .apply_list_head img {position: absolute;top: 0;left: 0;width: 100%;}
+.apply_list_hold .apply_list_head_con a:before{content: '';display: block;position: absolute;right: 50%;bottom: -0.8rem;z-index: -1;width: 0.1rem;height: 0.8rem;background: #dbdee0;}
+
+.apply_list_hold .apply_list{margin: 0 auto;}
+.apply_list_hold .apply_list .apply{position:relative;margin: 0 auto;text-align: center;font-size: 1.5rem; color: #fff;}
+.apply_list_hold .apply_list .apply .favicon{position: relative;height: 5.6rem;background: #ff9525;border-radius:25px;}
+.apply_list_hold .apply_list .apply span{position:relative;display:block;top:1.15rem;margin:0 auto;width: 3rem;font-size: 1.3rem;}
+.apply_list_hold .apply_list_one li{width: 5.6rem; height: 8rem;}  /*第一个的时候*/
+.apply_list_hold .apply_list_one li a:before{content: '';display: block;position: absolute;right: 50%;top: -3.4rem;z-index: -1;width: 0.1rem;height: 3.4rem;background: #dbdee0;}
+.apply_list_hold .apply_list_two{width: 23.7rem;}
+.apply_list_hold .apply_list_two li{position:relative;float:left;margin-left:12.45rem;width: 5.6rem; height: 8rem; } /* 第二个的时候*/
+.apply_list_hold .apply_list_two li a:before{content: '';display: block;position: absolute;right: 50%;top: -2.2rem;z-index: -1;width: 0.1rem;height: 2.4rem;background: #dbdee0;}
+.apply_list_hold .apply_list_two:after{content: '';display: block;position: absolute;margin:-2.3rem auto 0;margin-left:2.7rem;z-index: -1;width: 18.2rem;height: 0.1rem;background: #dbdee0;}
+.apply_list_hold .friends_head{position: relative;overflow: hidden;width: 5.2rem; height: 5.2rem;border: 0.2rem solid #dcdcdc;border-radius: 100%;}
+.apply_list_hold .friends_head img {position: absolute;top: 0;left: 0;width: 100%;}
+.apply_list_hold .friends_name span{display:block;position:relative;top:0.5rem;font-size: 0.9rem;color: #7a7f82;text-align: center;}
+.apply_list_hold .apply_list_three li{margin-left:3.44rem;}
+.apply_list_hold .apply_list_four{width: 29.1rem;}
+.apply_list_hold .apply_list_four:before{content: '';display: block;position: relative;z-index: -1;width: 0.1rem;background: #dbdee0;}
+.apply_list_hold .apply_list_four li{position:relative;float:left;margin-left:2.233rem;width: 5.6rem; height: 8rem; } /* 第二个的时候*/
+.apply_list_hold .apply_list_four li a:before{content: '';display: block;position: absolute;right: 50%;top: -2.2rem;z-index: -1;width: 0.1rem;height: 2.4rem;background: #dbdee0;}
+.apply_list_hold .apply_list_four:after{content: '';display: block;position: absolute;margin:-2.3rem auto 0;margin-left:2.7rem;z-index: -1;width: 23.6rem;height: 0.1rem;background: #dbdee0;}
+.apply_list_hold .apply_list_four li:nth-child(4n+1){margin-left: 0}
+.apply_list_hold .apply_list_four li:nth-child(n+5) a:before{width: 0}
+.apply_list_hold .invitation_wz{position:relative;margin-top:4.1rem;text-align:center;font-size: 1.5rem;}
+.apply_list_hold .invitation_wz span{color: #ff1b35;}
+.apply_list_hold .friends_list{position:relative;margin: 3.9rem auto;width: 26rem;color: #7a7f82;font-size: 1rem; }
+.apply_list_hold .friends_list ul li{height: 4rem;}
+.apply_list_hold .person_name{position: absolute;left: 0;}
+.apply_list_hold .date_time{position: absolute;right: 0;}

@@ -1,0 +1,341 @@
+/*单图文*/
+.d_img_preview {
+    padding: 30px;
+    background: #fff;
+}
+.img_preview {
+    padding: 14px;
+    float: left;
+    width: 300px;
+    background: #fff;
+    border: #e7e7eb solid 1px;
+}
+.img_preview .preview_title {
+    margin: 0;
+    padding-bottom: 10px;
+}
+.img_preview .preview_title a {
+    display: block;
+    color: #8d8d8d;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+.img_preview .img_img {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+}
+.img_preview .img_img .img_f {
+    display: none;
+    width: 300px;
+    height: 160px;
+}
+.img_preview .img_img .img_img_i, .multi_map_i {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    font-style: normal;
+    font-size: 16px;
+    color: #c0c0c0;
+    background: #ececec;
+}
+.img_preview .img_desc {
+    margin: 0;
+    padding: 5px 0 0;
+    font-size: 14px;
+    color: #8d8d8d;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.upload_info {
+    margin-left: 24px;
+    padding: 20px;
+    float: left;
+    width: 581px;
+    background: #f4f5f9;
+    border: #e7e7eb solid 1px;
+}
+.upload_info .triangle {
+    margin: 20px 0 0 -35px;
+    position: absolute;
+    width: 15px;
+    height: 24px;
+    background: url(../../images/triangle.jpg) no-repeat center center;
+}
+.upload_info .upload_item {
+    padding-bottom: 20px;
+}
+.upload_info .upload_item label {
+    padding-bottom: 5px;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    font-size: 14px;
+}
+.upload_info .upload_item label span {
+    color: #8d8d8d;
+}
+.upload_info .upload_item .frm_input_box {
+    padding: 0 10px;
+    display: block;
+    background: #fff;
+    border: #e7e7eb solid 1px;
+}
+.upload_info .upload_item .frm_input_box .frm_input {
+    width: 100%;
+    color: #222;
+    background: #fff;
+    border-width: 0;
+}
+.upload_info .upload_item .frm_input_box .js_title, .upload_info .upload_item .frm_input_box .js_author {
+    height: 30px;
+    line-height: 30px;
+}
+.upload {
+    float: left;
+}
+.upload_info .add_abstract {
+    margin: 0;
+    padding: 0 0 20px;
+}
+.upload_info .abstract {
+    display: none;
+}
+.upload_info .upload_item .frm_input_box .frm_textarea {
+    padding: 10px 0;
+    height: 100px;
+    resize: none;
+}
+/*从图片库选择*/
+.selected {
+    margin-top: -169px;
+    position: relative;
+    display: none;
+    width: 169px;
+    height: 169px;
+    background-image: url(../../images/selected_icon.png);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.message.img_message {
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.ui-dialog .img_left {
+    padding: 10px 0;
+    width: 76%;
+}
+.ui-dialog .img_right {
+    width: 23%;
+}
+/*控制编辑器*/
+#SourceFile_content {
+    *width: 575px;
+    *height: 200px;
+}
+/*多图文*/
+.multi_map_preview_title {
+    margin: 143px 0 0 -10px;
+    padding: 5px;
+    position: absolute;
+    left: 230px;
+    float: left;
+    overflow: hidden;
+    width: 255px;
+    height: 28px;
+    line-height: 28px;
+    background: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.multi_map_preview_title a {
+    color: #fff;
+    text-decoration: none;
+}/*標題*/
+.multi_map_info {
+    margin-left: 5px;
+}
+.img_text_col {
+    float: left;
+    width: 313px;
+}
+.voice_bd .video_file {
+    float: left;
+    width: 295px;
+}
+.voice_bd .img_text_item {
+    padding: 20px 14px;
+    overflow: hidden;
+    border: #e7e7eb solid;
+    border-width: 0 1px 1px;
+}
+.img_text_item.multi_map_item img {
+    width: 100%;
+    height: 160px;
+}
+.img_text_item.multi_map_item .img_text_tit {
+    display: none;
+}
+.video_file.multi_map_file {
+    border-top: #e7e7eb solid 1px;
+}
+.img_text_item .img_text_thumb {
+    float: right;
+    width: 29%;
+    height: 78px;
+}
+.img_text_item .img_text_tit {
+    margin-top: 15px;
+    float: left;
+    overflow: hidden;
+    width: 70% !important;
+    height: 44px;
+    line-height: 22px;
+    font-size: 14px;
+}
+.img_text_item .img_text_tit a {
+    display: block;
+    width: 100%;
+    color: #666;
+}
+.multi_map_info .upload_item .frm_input_box .frm_textarea {
+    height: 30px;
+}/*定義摘要*/
+.move_img_txt_bd {
+    margin-left: -10px;
+    width: 602px;
+}
+.more_img_txt_file {
+    margin: 0 10px 20px;
+    float: left;
+    overflow: hidden;
+    width: 280px;
+    height: 268px;
+}
+.multi_map_psd {
+    padding: 14px 11px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #e7e7eb;
+}
+.multi_map_psd h4 {
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 20px;
+}
+.multi_map_psd a {
+    margin: 0;
+    padding: 0;
+    color: #666;
+    font-weight: 400;
+}
+.more_img_txt_date {
+    line-height: 20px;
+    font-size: 13px;
+}
+.more_img_txt_date em {
+    color: #8d8d8d;
+    font-style: normal;
+    font-weight: 400;
+}
+.move_img_txt_info a img {
+    width: 256px;
+    height: 160px;
+}
+.move_img_txt_desc {
+    margin: 10px 0 0;
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 256px;
+    height: 24px;
+    line-height: 24px;
+}
+.multi_map_edit_mask {
+    margin: -98px -14px;
+    padding-top: 43px;
+    position: relative;
+    display: none;
+    float: left;
+    overflow: hidden;
+    width: 293px;
+    text-align: center;
+    height: 75px;
+    background: #ececec;
+    background: rgba(229, 229, 229, 0.7);
+}
+.img_text_item.multi_map_item .multi_map_edit_mask {
+    margin-top: -180px;
+    padding-top: 82px;
+    height: 118px;
+}
+/*图标*/
+.moreimg_icon {
+    margin: 0 10px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../../images/multi_map_icon_a.png) no-repeat -11px -1px;
+}
+.moreimg_icon:hover {
+    background-image: url(../../images/multi_map_icon_a_hover.png);
+}
+.multi_map_edit_mask .edit {
+    background-position: -11px -241px;
+}
+.multi_map_edit_mask .up {
+    background-position: -11px -108px;
+}
+.multi_map_edit_mask .down {
+    background-position: -11px -55px;
+}
+.upload_info.multi_map_info .voice_bd .voice_file.video_file {
+    overflow: hidden;
+    width: 295px;
+    height: 265px;
+}
+/*增加圖片*/
+.tu_add {
+    margin-top: -267px;
+    padding-top: 100px;
+    position: relative;
+    display: none;
+    text-align: center;
+    height: 166px;
+    background: #ececec;
+    background: rgba(229, 229, 229, 0.7);
+}
+.tu_add a {
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+    background-position: 0 -166px;
+}
+/*右边分组*/
+.moremsg_sidebar {
+    margin-top: 0;
+    background: #f4f5f9;
+}
+.moremsg_sidebar dl dd:hover {
+    background: #fff;
+}
+.moremsg_sidebar dl dd a:hover {
+    background: #fff;
+}
+/*提交按钮*/
+.multi_map_sublime {
+    margin-top: 30px;
+    padding: 20px 10px 0;
+    overflow: hidden;
+    float: left;
+    width: 98%;
+    border-top: 1px solid #e7e7eb;
+}

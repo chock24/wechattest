@@ -1,0 +1,183 @@
+/*图文消息*/
+.img_txt_message {
+    overflow: hidden;
+    background: #fff;
+}
+.img_txt_title h3 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+/*单、多图文按钮*/
+.img_txt_col .img_txt_sc {
+    margin: 10px 10px 0;
+    width: 293px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    border: 2px dotted #d9dadc;
+}
+.img_txt_col .img_txt_sc:hover {
+    border-color: #b3b3b3;
+}
+.img_txt_col .img_txt_sc .img_txt_icon {
+    margin-top: 20px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url(../../images/img_text_icon.png) no-repeat 0 0;
+}
+.img_txt_col .img_txt_sc a {
+    display: none;
+    width: 80px;
+    text-align: center;
+    color: #d9d9d9;
+    text-decoration: none;
+}
+.img_txt_col .img_txt_sc a:hover {
+    color: #b3b3b3;
+}
+.img_txt_col .img_txt_sc a .img_txt_icon {
+    margin-top: 14px;
+    width: 38px;
+    height: 38px;
+}
+.img_txt_col .img_txt_sc a strong {
+    margin: 0;
+    padding-top: 3px;
+    display: block;
+    line-height: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.img_txt_col .img_txt_sc a.da_img .img_txt_icon {
+    background-position: 0 -99px;
+}
+.img_txt_col .img_txt_sc .da_img:hover .img_txt_icon {
+    background-position: 0 -147px;
+}
+.img_txt_col .img_txt_sc a.du_img .img_txt_icon {
+    background-position: 0 -195px;
+}
+.img_txt_col .img_txt_sc a.du_img:hover .img_txt_icon {
+    background-position: 0 -243px;
+}
+/*block样式*/
+.img_txt_file {
+    float: left;
+    width: 295px;
+}
+.img_txt_file .img_txt_file_ct {
+    padding: 14px 11px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #e7e7eb;
+}
+.img_txt_file .title {
+    margin: 0;
+    padding: 0;
+    color: #8d8d8d;
+    font-weight: 400;
+}
+.img_txt_col .img_txt_tit a {
+    color: #666;
+    text-decoration: none;
+}
+.img_txt_col .img_txt_tit a:hover, .img_txt_float:hover {
+    text-decoration: underline;
+}
+.img_txt_file .img_txt_date {
+    line-height: 20px;
+    font-size: 13px;
+}
+.img_txt_file .img_txt_date em {
+    color: #8d8d8d;
+    font-style: normal;
+    font-weight: 400;
+}
+.img_txt_file .img_txt_file_ct .img_txt_info img {
+    float: left;
+    width: 100%;
+    height: 170px;
+}
+.img_text_desc {
+    margin: 10px 0 0;
+    float: left;
+    width: 100%;
+}
+.img_txt_col .img_txt_desc {
+    margin: 8px 0 0;
+    float: left;
+    clear: both;
+    font-size: 14px;
+}
+.img_txt_ft {
+    height: 44px;
+    line-height: 44px;
+    border-left-width: 0;
+}
+.img_txt_ft li {
+    width: 32.9%;
+    border-left: 1px solid #e7e7eb;
+}
+.img_txt_ft li a {
+    padding-top: 10px;
+    height: 34px;
+}
+/*多图文列表*/
+.img_txt_float {
+    margin-top: -38px;
+    padding: 5px 0;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    text-indent: 5px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    background: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.img_txt_float a {
+    color: #fff;
+}
+.img_txt_item {
+    padding: 20px 14px;
+    overflow: hidden;
+    clear: both;
+    border: #e7e7eb solid;
+    border-width: 0 1px 1px;
+}
+.img_txt_item .img_txt_thumb {
+    float: right;
+    width: 29%;
+    height: 78px;
+}
+.img_txt_item .img_txt_tit {
+    margin-top: 15px;
+    float: left;
+    overflow: hidden;
+    width: 70% !important;
+    height: 44px;
+    line-height: 22px;
+    font-size: 14px;
+}
+.img_txt_item .img_txt_tit a {
+    display: block;
+    width: 100%;
+}
+/*图文消息瀑布流*/
+.width81 .img_txt_bd {
+    width: 100%;
+}
+.width81 .items {
+    margin-top: 10px;
+    position: relative;
+    padding: 0;
+    width: 100%;
+}

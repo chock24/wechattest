@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS 登录页面样式 */
+
+.login {margin: 100px auto;padding-bottom: 20px;overflow: hidden;width: 500px;min-height: 200px;border: #ccc solid 1px;}
+.login-title {margin-bottom: 15px;text-indent: 20px;height: 45px;line-height: 45px;font-weight:normal;border-bottom: #ccc solid 1px;}
+.field {margin: 6px 40px 0;float: left;width: 420px;height: 50px;}
+.field label {width: 60px;display: inline-block;}
+.error input {border-color: #ff2f00;}
+.error label {color: #ff2f00;}
+.field img {margin-top: -3px;width: 80px;height: 30px;}
+.errorMessage {text-indent: 64px;height: 20px;line-height: 20px;color: red;}
+.captcha{cursor: pointer;}

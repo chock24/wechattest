@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>微信重构</title>
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="css/fodder.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="width-1360 auto">
+            <a href="javascript:;" class="logo"><img src="images/common/logo.png"></a>
+            <div class="right top-user">
+                <a class="public-name" href="javascript:;">欧派家居集团<i>▼</i></a>
+                <a href="javascript:;">系统管理</a>
+                <a href="javascript:;">admin</a>
+                <a class="border-none" href="javascript:;">退出</a>
+            </div>
+        </div>
+    </div>
+    <div class="background-white content">
+        <div class="relative">
+            <div class="left nav">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="javascript:;"><i class="margin-right-5 icon icon-menu"></i>系统管理</a>
+                            <ul class="nav-SubMenu">
+                                <li class="active"><a href="javascript:;">系统设置</a></li>
+                                <li><a href="javascript:;">系统设置</a></li>
+                                <li><a href="javascript:;">系统设置</a></li>
+                                <li><a href="javascript:;">系统设置</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;"><i class="margin-right-5 icon icon-menu"></i>系统管理</a>
+                            <ul class="nav-SubMenu">
+                                <li class="active"><a href="javascript:;">系统设置</a></li>
+                                <li><a href="javascript:;">系统设置</a></li>
+                                <li><a href="javascript:;">系统设置</a></li>
+                                <li><a href="javascript:;">系统设置</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="right content-main">
+            <h2 class="content-main-title">单图文管理</h2>
+            <div>
+                <div class="tabhost">
+                    <div class="tabhost-title">
+                        <ul>
+                            <li class="active"><a href="javascript:;">单图文消息</a></li>
+                            <li><a href="javascript:;">多图文消息</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="tabhost-center">
+                        <div class="padding30 tabhost-center">
+
+                            <!--全选移动-->
+                            <div class="fodder-group-move">
+                                <label class="margin-right-5 fodder-group-checked">
+                                    <input type="checkbox" class="fodder-group-move-checkbox" data-label="全选">
+                                    <span class="fodder-group-move-text">全选</span>
+                                </label>
+                                <input type="button" class="margin-right-5 button button-gray" value="移动分组">
+                                <input type="button" class="button button-gray" value="删除">
+
+                            </div>
+
+
+                            <div class="left width880">
+                                <div class="overflow padding10 wechat-fodder">
+
+
+                                    <div class="fodder mage-text">
+                                        <div class="fodder-center">
+                                            <h4><a href="javascript:;">年终奖第二轮抽奖视频</a></h4>
+                                            <em class="fodder-date">01月27日 (来自本地视频) <input class="right ie7margin-top20" type="checkbox"></em>
+                                            <div class="fodder-img mage-text-video">
+                                                <a href="javascript:;"><img src="images/del/getimgdata.jpg" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="operation operation-fodder-h44">
+                                            <ul>
+                                                <li class="left"><a href="javascript:;"><i class="icon icon-text"></i></a></li>
+                                                <li class="left"><a href="javascript:;"><i class="icon icon-download"></i></a></li>
+                                                <li class="left"><a href="javascript:;"><i class="icon icon-del"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <!--分页功能-->
+                            <div class="left sidebar">
+                                <div class="sidebar-list"><a href="javascript:;" class="select-gather-item">显示全部</a></div>
+                                <div class="sidebar-list">
+                                    <a href="javascript:;" class="left select-gather-item">未分组</a>
+                                    <a href="#" class="right none select-gather-update"><i class="icon icon-text"></i></a>
+                                    <a href="#" class="right none select-gather-del"><i class="icon icon-del"></i></a>
+                                </div>
+                                <div class="sidebar-list">
+                                    <a href="javascript:;" class="left select-gather-item">星分组</a>
+                                    <a href="#" class="right none select-gather-update"><i class="icon icon-text"></i></a>
+                                    <a href="#" class="right none select-gather-del"><i class="icon icon-del"></i></a>
+                                </div>
+                                <div class="sidebar-list"><a href="javascript:;" class="select-gather-item">+添加分组</a></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <ul class="width-1360 auto">
+            <li class="left"><a href="javascript:;">关于我们</a></li>
+            <li class="left"><a href="javascript:;">联系我们</a></li>
+            <li class="left"><a href="javascript:;">联系邮箱</a></li>
+            <li class="left border-none">Copyright &copy; 2014-2015 Oppein. All Rights Reserved. </li>
+        </ul>
+    </div>
+</body>
+</html>

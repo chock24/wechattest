@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS 微信弹出选择素材的样式 */
+
+/*公用样式*/
+/*搜索功能*/
+.popup-content-fodder-seek {padding: 7px 16px;width: 726px;height: 30px;border: #ccc solid;border-width: 1px 1px 0;}
+
+.popup-content-fodder {margin: 15px auto;position: relative;width: 760px;overflow: hidden;background: #fff;border: 1px solid #ccc;}
+.popup-content-fodder-content {float: left;width: 572px;background: #fff;border: 1px solid #ccc;}
+
+.popup-fodder {margin: 10px 5px;position: relative;float: left;background: #fff; cursor: pointer;}
+.popup-fodder:hover{ background: #ffe;}
+.popup-fodder-center {padding: 14px 11px;overflow: hidden;font-weight: 400;border: solid #e7e7eb 1px;}
+.popup-fodder-center h4 {margin-bottom: 5px;font-size: 16px;color: #8d8d8d;}
+.popup-fodder-img {overflow: hidden;width: 100%;}
+.popup-fodder-img img {width: 100%;}
+.popup-fodder-introduce {margin: 10px 0 0;display: block;overflow: hidden;width: 100%;height: 20px;line-height: 20px;font-size: 14px;}
+/*分组*/
+.popup-sidebar {margin-left: -1px;width: 165px;background: #fff;border: #ccc solid 1px;overflow: hidden;}
+.popup-sidebar-list {overflow: hidden;height: 33px;line-height: 33px;}
+.popup-sidebar-list a {margin: 0;padding: 0 5px 0 14px;display: block;width: 100%;color: #222;}
+.popup-sidebar-list:hover{background: #f4f5f9;}
+
+/*选中样式*/
+.selected .popup-selected {display: block;}
+.popup-selected {position: absolute;top: 0;left: 0;width: 100%;text-align: center;height: 100%;}
+.popup-selected-bj {position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: #000;opacity: 0.5;filter:alpha(opacity=50);}
+.popup-selected i {margin: -25px 0 0 -25px;position: absolute;top: 50%;left: 50%;z-index: 999;}
+
+/*图文*/
+.popup-fodder-teletext {width: 276px;}
+.popup-fodder-img-teletext {height: 164px;}
+/*多图文*/
+.popup-fodder-mage-text-img-title {margin-top: -38px;padding: 5px 0;position: relative;bottom: 0;float: left;overflow: hidden;width: 100%;text-indent: 5px;height: 28px;line-height: 28px;font-size: 14px;color: #fff;background: #000;opacity: 0.7;filter:alpha(opacity=70);}
+.popup-fodder-mage-text-more {padding: 14px 11px;overflow: hidden;border: solid #e7e7eb;border-width: 0 1px 1px;}
+.popup-fodder-mage-text-more h4 {margin-top: 15px;display: block;overflow: hidden;width: 160px;height: 44px;line-height: 22px;font-size: 14px;}
+.popup-fodder-mage-text-more-img {overflow: hidden;width: 85px;height: 78px;}
+.popup-fodder-mage-text-more-img img {width: 100%;}
+
+/*图片*/
+.popup-fodder-mage-img {width: 180px;}
+.popup-fodder-mage-img-center {padding: 0 0 5px;}
+.popup-fodder-mage-img-img {height: 140px;}
+
+/*音频*/
+.popup-fodder-mage-voice {width: 180px;}
+.popup-fodder-mage-voice-center {padding: 0 10px 15px;width: 160px;}
+.popup-fodder-mage-voice-img {margin-top: 5px;width: 160px;height: 148px;background: #d7d8da url(../weixin_image/icon-info.png) no-repeat center center;cursor: pointer;}
+
+/*视频*/
+.popup-fodder-mage-video {width: 275px;}
+.popup-fodder-mage-video-center {padding: 0 10px 15px;width: 255px;}
+.popup-fodder-mage-video-img {margin-top: 5px;width: 255px;height: 140px;background: #d7d8da url(../weixin_image/cion-video.png) no-repeat center center;cursor: pointer;}

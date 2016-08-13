@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>微信重构</title>
+<link href="weixin_css/common.css" rel="stylesheet" type="text/css" />
+<link href="weixin_css/fodder.css" rel="stylesheet" type="text/css" />
+<script src="weixin_js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="weixin_js/common.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="width-1360 auto">
+            <a href="javascript:;" class="logo"><img src="weixin_image/common/logo.png"></a>
+            <div class="right top-user">
+                <a class="public-name" href="javascript:;">欧派家居集团<i>▼</i></a>
+                <a href="javascript:;">系统管理</a>
+                <a href="javascript:;">admin</a>
+                <a class="border-none" href="javascript:;">退出</a>
+            </div>
+        </div>
+    </div>
+    <div class="background-white content">
+        <div class="relative">
+            <div class="left nav">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="javascript:;"><i class="margin-right-5 icon icon-menu"></i>系统管理</a>
+                            <ul class="nav-SubMenu">
+                                <li class="active"><a href="javascript:;">系统设置</a></li>
+                                <li><a href="javascript:;">系统设置</a></li>
+                                <li><a href="javascript:;">系统设置</a></li>
+                                <li><a href="javascript:;">系统设置</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;"><i class="margin-right-5 icon icon-menu"></i>系统管理</a>
+                            <ul class="nav-SubMenu">
+                                <li><a href="javascript:;">系统设置</a></li>
+                                <li><a href="javascript:;">系统设置</a></li>
+                                <li><a href="javascript:;">系统设置</a></li>
+                                <li><a href="javascript:;">系统设置</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="right content-main">
+            <h2 class="content-main-title">单图文管理</h2>
+            <div>
+                <div class="tabhost">
+                    <div class="tabhost-title">
+                        <ul>
+                            <li class="active"><a href="javascript:;">单图文消息</a></li>
+                            <li><a href="javascript:;">多图文消息</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="tabhost-center">
+                        <div class="padding30 tabhost-center">
+
+                            <div class="left fodder add-mage-text">
+                                <div class="fodder-center add-mage-text-border-bottom">
+                                    <h4><a href="javascript:;" title="标题">标题</a></h4>
+                                    <div class="fodder-img add-mage-text-img">
+                                        <img class="none" src="http://wechat.oppein.cn/upload/sourcefile/image/medium/20150129102741142874.jpg" />
+                                        <i class="add-mage-text-img-background">封面图片</i>
+                                    </div>
+                                    <p class="fodder-introduce add-mage-text-title">11111</p>
+                                </div>
+                            </div>
+
+                            <div class="left add-mage-text-input">
+                                <div class="triangle"></div>
+
+                                <form>
+                                    <div class="add-mage-text-compile">
+                                        <label>标题</label>
+                                        <div class="add-mage-text-compile-content title">
+                                            <input type="text" placeholder="标题" size="70"><span class="right color-9"><em>0</em>/60</span>
+                                        </div>
+                                    </div>
+                                    <div class="add-mage-text-compile author">
+                                        <label>作者<span class="color-9">（选填）</span></label>
+                                        <div class="add-mage-text-compile-content">
+                                            <input type="text" placeholder="作者" size="70"><span class="right color-9"><em>0</em>/8</span>
+                                        </div>
+                                    </div>
+                                    <div class="add-mage-text-compile">
+                                        <label>封面<span class="color-9">（大图片建议尺寸：900像素 * 500像素）</span></label>
+                                        <a href="javascript:;" class="margin-top-8 button button-white">上传</a>
+                                        <a href="javascript:;" class="margin-top-8 button button-white">从图片库选择</a>
+                                    </div>
+                                    <div class="add-mage-text-compile">
+                                        <label>摘要<span class="color-9">（选填）</span></label>
+                                        <div class="add-mage-text-compile-content textarea">
+                                            <textarea></textarea>
+                                            <span class="right color-9"><em>0</em>/120</span>
+                                        </div>
+                                    </div>
+                                    <div class="add-mage-text-compile">
+                                        <label>原文链接<span class="color-9">（选填）</span></label>
+                                        <div class="add-mage-text-compile-content textarea">
+                                            <input type="text" size="74">
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <div class="clear"></div>
+                            <div class="add-mage-text-submit">
+                                <a href="javascript:;" class="button button-green">保存</a>
+                                <a href="javascript:;" class="button button-white">预览</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        $(function(){
+            $('.title').form_count(60);
+            $('.author').form_count(8);
+            $('.textarea').form_count(120);
+        })
+    </script>
+    <div class="footer">
+        <ul class="width-1360 auto">
+            <li class="left"><a href="javascript:;">关于我们</a></li>
+            <li class="left"><a href="javascript:;">联系我们</a></li>
+            <li class="left"><a href="javascript:;">联系邮箱</a></li>
+            <li class="left border-none">Copyright &copy; 2014-2015 Oppein. All Rights Reserved. </li>
+        </ul>
+    </div>
+</body>
+</html>

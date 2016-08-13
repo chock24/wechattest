@@ -1,0 +1,47 @@
+.login-section{
+    padding: 30px;
+}
+.login-section h1{
+    text-align: center;
+    line-height: 40px;
+}
+.login-section form label{
+    float:left;
+    margin-left: 30px;
+    width:70px;
+    line-height: 30px;
+}
+.login-section form input{
+    float:left;
+    width:200px;
+    line-height: 20px;
+}
+.login-section form .remember{
+    float:left;
+    width:15px;
+    margin-top: 8px;
+}
+.login-section form .login-btn{
+    float:left;
+    width: 150px;
+    padding: 5px 0;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+
+.login-section form .errorMessage{
+    float:left;
+    margin-left: 10px;
+    line-height: 30px;
+}
+.login-section form .captcha{
+    float:left;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.login-section form .captcha-error{
+    float:left;
+    margin-left: 100px;
+}
+

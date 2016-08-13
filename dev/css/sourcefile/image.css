@@ -1,0 +1,61 @@
+.op_group {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #fff;
+    border-bottom: 1px solid #e7e7eb;
+}
+.op_group .qx_checked {
+    margin: 6px 5px 0 0;
+    float: left;
+}
+.img_move, .img_delete {
+    width: 95px;
+}
+.img_move.a_screen, .img_move:hover, .img_delete.a_screen, .img_delete:hover {
+    color: #000;
+    background: #e6e7ec;
+    border: #dadbe0 solid 1px;
+}
+.img_move.a_screen, .img_delete.a_screen {
+    cursor: default;
+}
+.op_group .shade {
+    margin: -33px 0 0 68px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    width: 263px;
+    height: 33px;
+}
+.img_file_ct {
+    padding: 0;
+}
+.img_file_ct .img_info {
+    margin: 0;
+    width: 169px;
+    height: 169px;
+    overflow: hidden;
+}
+.img_file_ct .img_info img {
+    display: block;
+    width: 169px;
+    height: 169px;
+}
+.img_file .img_size {
+    width: 169px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.img_ft {
+    width: 169px;
+    height: 30px;
+}
+.img_ft ul li {
+    float: left;
+    width: 33%;
+}

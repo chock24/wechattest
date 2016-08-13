@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS 定义弹出框的样式 */
+
+.popup {z-index: 999;}
+.popup-background {position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: #000;opacity: 0.7;filter:alpha(opacity=50);z-index: 998;}
+.popup-content {margin: auto;position: fixed;left: 50%;top: 50%;background: #fff;z-index: 999; }
+.popup-data{overflow: auto;*overflow-x: hidden;*position: relative;}
+.popup-title {padding: 0 20px;position: relative;height: 52px;line-height: 52px;background-color: #f4f5f9;background-image: linear-gradient(to bottom, #f4f5f9 0px, #f4f5f9 100%);border-bottom: 1px solid #e7e7eb;}
+.popup-title h3 {float: left;font-size: 16px;font-weight: 400;}
+.popup-title a {margin-top: 20px;float: right;}
+.popup-title a:hover {background-color: #dcdcdc;}
+.popup-body {min-height: 197px;}
+.popup-footer {margin: 0;position: absolute;left: 0;bottom: -64px;*position: relative;*bottom: 0;width: 100%;text-align: center;height: 64px;line-height: 64px;background: #f4f5f9;border-top: 1px solid transparent;}
+
+/*
+弹出框html结构
+<div class="none popup">
+    <div class="popup-background"></div>
+    <div class="popup-content">
+        <div class="popup-title">
+            <h3></h3>
+            <a class="closed icon-16 icon-16-close" href="javascript:;"></a>
+        </div>
+        <div class="popup-data">
+            <form>
+                <div class="popup-body">
+                    <div class="create-edit-add-nav">
+                        <label class="frm_label">菜单名称名字不多于4个汉字或8个字母</label>
+                        <input type="text" placeholder="输入菜单" size="60" class="nav_user">
+                    </div>
+                </div>
+                <div class="popup-footer">
+                    <input type="submit" class="button button-green confirm establish" value="确认">
+                    <input type="button" class="closed button button-white" value="取消">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+*/
+
+/* 消息中心和用户界面消息记录，鼠标移动到消息图片放大图片 */
+.information_popup_who {display: none;}
+.information_popup_img {position: fixed;top: 0;left: 0;z-index: 999;width: 100%;height: 100%;background: rgba(0,0,0,0.9);background: #000 \9;}
+.information_popup_img_con{margin: 0 auto;position: relative;text-align: center;}
+.information_popup_img_con_img {position: relative;overflow: hidden;display: inline-block;*display: inline;}
+.information_popup_img_con a {position: absolute;top: 0;right: 0;width: 40px;text-align: center;height: 40px;line-height: 40px;font-size: 30px;color: #fff;background: rgba(0,0,0,0.7);background: #000 \9;}
+.information_popup_img_con a:hover {background: #ccc;}
+
+/* 图片居中 */
+.information_popup_img {border:1px #ddd solid;overflow:hidden;text-align:center;display:table;float:left;}
+.information_popup_img_con {display:table-cell;vertical-align:middle;}
+.information_popup_img_con img{margin:0 auto;min-width:200px;min-height:140px;max-height: 600px;}
+/*For IE7*/
+*+html .information_popup_img_con {position:absolute;top:50%;width:100%;text-align:center;height:auto;}
+*+html .information_popup_img_con img{position:relative;top:-50%;left:-50%;}
+/*For IE6*/
+*html .information_popup_img_con{position:absolute;top:51%;width:100%;text-align:center;height:auto;display:block;}
+*html .information_popup_img_con img{position:relative;top:-50%;left:-50%;width:expression(this.width>200?"200px":"auto");height:expression(this.height>140?"140px":"auto");}
+
+/*
+
+<div class="information_popup_who">
+    <div class="information_popup_img">
+        <div class="information_popup_img_con">
+            <span class="information_popup_img_con_img">
+                <img src="http://img1.cache.netease.com/catchpic/B/BB/BB9CF01C0E67D5CDCDCBC36F44AA7CCA.jpg" / >
+                <a href="javascript:;">X</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+*/

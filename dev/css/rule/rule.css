@@ -1,0 +1,123 @@
+.keyword {
+    margin-bottom: 15px;
+    border:#e5e5e7 solid 1px;
+}
+.keyword .rule-title {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #000;
+    text-indent: 14px;
+    background: #f4f5f9;
+}
+.keyword .web-menu-btn {
+    padding: 0;
+    position: relative;
+    margin-top: -42px;
+}
+.original-section {
+    padding: 0 0 10px 14px;
+}
+.rule-keyword p {
+    margin: 0;
+}
+/*2*/
+.keyword_two,.original-section {
+    border-top: #e5e5e7 solid 1px;
+}
+.keyword_two {
+    min-height: 30px;
+    overflow: hidden;
+}
+div.form .keyword_two input {
+    margin-top: 8px;
+}
+div.form .keyword_two input.rule_name {/*规则名input*/
+    margin-top: 6px;
+    height: 20px;
+    line-height: 20px;
+    border: #e6e5ea solid 1px;
+}
+div.wide.form .keyword_two label {
+    text-align: left;
+    text-indent: 14px;
+    line-height: 30px;
+}
+div.wide.form .keyword_two a {
+    margin-right: 20px;
+    display: inline-block;
+    line-height: 30px;
+}
+.keyword_two_count {
+    margin: 0 0 -1px 30px;
+    padding: 7px 0;
+    overflow: hidden;
+    border-bottom: #e5e5e7 solid 1px;
+}
+div.wide.form .keyword_two_count label {
+    width: auto;
+    min-width: 100px;
+}
+div.wide.form .keyword_two_count a {
+    margin-left: 5px;
+    margin-right: 0;
+    width: 24px;
+}
+.keyword_reply {
+    margin-bottom: 10px;
+    padding: 0 60px 0 30px;
+    overflow: hidden;
+}
+.keyword_reply .reply-content {
+    padding: 10px;
+    width: 100%;
+    background: #f7f7f8;
+    border:1px solid #ccc;
+}
+.keyword_reply p.reply-content img {
+    max-height: 80px;
+}
+.keyword_reply a,.keyword_reply p {
+      margin: 0;
+}
+.keyword_reply .reply-content a {
+    width: 24px;
+}
+div.wide.form .buttons {
+    padding-left: 14px;
+}
+.rule-title{
+    background: #C9E0ED;
+    padding: 5px;
+    display: block;
+    width: 90%;
+}
+.rule-keyword{
+    padding: 5px 0;
+    line-height: 20px;
+}
+.keyword-item{
+    background: #C9E0ED;
+    display: block;
+    padding: 0px 10px;
+    margin: 0 5px;
+}
+
+/*添加回复内容弹出框样式重新定义*/
+.popup_RContent {
+    min-width: 1000px;
+}
+.message {
+    min-height: 20px;
+}
+.popup_RContent .content {
+    float: left;
+    width: 78%;
+    background: #fff;
+    border: 1px solid #e7e7eb;
+}
+.popup_RContent .sidebar {
+    margin-top: 0;
+}
+

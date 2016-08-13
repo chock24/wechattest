@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS 基础功能回复模块(自动回复、) */
+
+.reply {border-top: #ccc solid 1px;}
+
+/*自定义菜单*/
+.create_menu {}
+.create-menu-nav {min-height: 530px;border: solid #e7e7eb 1px;}
+.create-menu-nav {width: 260px;}
+.create-menu-title {height: 38px;line-height: 38px;background: #f4f5f9;border-bottom: 1px solid #e7e7eb;}
+.create-menu-title h4 {text-indent: 10px;font-size: 14px;width: 100%;}
+.create-menu-title-event {margin-top: -35px;position: relative;height: 38px;line-height: 38px;}
+.create-menu-title .create-menu-title-input {margin-top: 3px;}
+.create-menu-nav-content {margin-bottom: -1px;}
+.create-menu-nav-content dl {cursor: pointer;border-bottom: 1px solid #e7e7eb;}
+.create-menu-nav-content dl dt,.create-menu-nav-content dl dd {overflow: hidden;width: 100%;text-indent: 10px;}
+.create-menu-nav-content dl dt a,.create-menu-nav-content dl a {padding: 10px 0;float: left;display: block;width: 100%;}
+.create-menu-nav-content dl dt:hover,.create-menu-nav-content dl dd:hover,.background-f4f5f9 {background-color: #f4f5f9;}
+.create-menu-nav-content-event {margin-top: -26px;position: relative;}
+.create-menu-nav-content dl .create-menu-nav-content-event a {padding: 0;float: left;width: 16px;}
+.create-menu-nav-content dl dt:hover .create-menu-nav-content-event,.create-menu-nav-content dl dd:hover .create-menu-nav-content-event {display: block;}
+
+.create-menu-edit {margin-left: -1px;width: 677px;min-height: 530px;border: 1px solid #e7e7eb;}
+.create-menu-edit-content {}
+/*菜单锁定样式*/
+.lock {text-indent: 38px !important;border-bottom: #fff solid 1px;}
+.lock a {cursor: initial;background-image: url(../weixin_image/customize_menus_lock.png);background-position: 16px 7px;background-repeat: no-repeat;}
+.lock a span {display: none;}
+.lock:hover .create-menu-nav-content-event {float: right;text-indent: 0 !important;}
+
+/*右边内容*/
+.create-prompt {padding-top: 180px;text-align: center;font-size: 14px;}
+/*刚开始显示样式*/
+.create-send,.create-link {margin-right: 20px;display: inline-block;*display: inline;zoom: 1;text-align: center;font-size: 14px;}
+.create-send i,.create-link i {margin-left: 5px;display: block;}
+
+/*自动回复*/
+.newsmanagement-seek {padding: 15px;overflow:hidden;height: 30px;line-height: 33px;border-bottom: 1px solid #ccc;}
+
+/*增加菜单/链接(输入)样式*/
+.create-edit-add-nav {margin: 99px auto;width: 400px;font-size: 14px;}
+.create-edit-add-nav label {margin-bottom: 10px;display: block;width: 100%;}
+
+/*菜单编辑预览功能*/
+.menu-preview {margin-bottom: 15px;overflow: hidden;}
+.menu-preview p {margin-left: 5px;}
+
+/*欢迎语/自动回复*/
+.text-preview {padding: 15px 25px;overflow: hidden;background: #f4f5f9;border-top: 1px solid #e7e7eb;}
+.text-preview-text {background: #fff;border-bottom: 1px solid #e7e7eb;}
+
+/*关键字回复*/
+.keyword {}
+.keyword-list {margin-bottom: 15px;overflow: hidden;border: 1px solid #e5e5e7;}
+.keyword-list-title {display: block;text-indent: 14px;height: 40px; line-height: 40px;font-size: 16px;color: #000;background: #f4f5f9;border-bottom: 1px solid #e5e5e7;}
+.keyword-list-del {width: 50px;position: relative;margin-top: -36px;}
+.keyword-list-original {padding: 8px 14px;font-size: 13px;color: #666;}
+.keyword-list-original-keyword {margin-bottom: 5px;height: 24px;line-height: 24px;}
+.keyword-list-original-keyword-item {margin: 0 5px;padding: 0 10px;display: block;float: left;color: #06c;background: #c9e0ed;}
+
+.keyword-list-modify {}
+.keyword-list-modify-list {padding: 0 14px;overflow: hidden;min-height: 40px;border-bottom: 1px solid #e5e5e7;}
+.keyword-list-modify-list label {min-width: 100px;display: inline-block;*display: inline;line-height: 40px;color: #666;font-weight: bold;}
+.keyword-list-modify-list-count {margin: 0 0 -1px 30px;padding: 2px 0;overflow: hidden;border-bottom: 1px solid #e5e5e7;}
+.keyword-list-modify-list-reply {margin: 10px 0 10px 30px;padding: 10px;overflow: hidden;font-size: 14px;color: #666;background: #f7f7f8;border: 1px solid #ccc;}
+.keyword-list-modify-list-reply img {max-width: 80px;max-height: 80px;}
+.buttons.keyword-list-modify-list {padding-top: 10px;border-bottom-width: 0;}
+
+/*二维码*/
+.qr-code {}
+.qr-code-list {margin: 10px 25px 10px 0;width: 232px;}
+.qr-code-list-grouping {margin: 5px 10px 5px 0;color: #08c;}
+
+/*群发功能*/
+.new-group-sending-input {position: relative;top: 3px;right: 255px;}
+.group-sending {border-top: 1px solid #e7e7eb;}
+.group-sending-list {padding: 20px 30px;position: relative;overflow: hidden;font-size: 14px;border-bottom: 1px solid #e7e7eb;}
+.group-sending-list img {max-width: 80px;max-height: 80px;}
+.group-sending-list-info {float: left;width: 540px;}
+.group-sending-list-info p {padding-bottom: 8px;}
+.group-sending-list-status {width: 150px;text-align: center;}
+.group-sending-list-time {display: block;float: left;width: 150px;text-align: center;}
+.group-sending-list-choice {position: absolute;top: 20px;right: 30px;width: 450px;}
+/*.group-sending-list-audit-cause {width: 400px;line-height: 20px;font-size: 12px;}*/
+/*新建群发消息*/
+.new-group-sending {}
+.new-group-sending-select {padding-bottom: 10px;height: 60px;border-bottom: 1px solid #e7e7eb;}
+.new-group-sending-select h4 {margin-bottom: 10px;font-size: 14px;}
+.new-group-sending-select select {margin-right: 10px;padding: 5px 0;min-width: 100px;line-height: 20px;}
+.new-group-sending-show {margin-bottom: 20px;}
+
+

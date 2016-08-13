@@ -1,0 +1,66 @@
+/*html{font-size:125%;}
+@media screen and (min-width:450px) and (max-width:640px){html{font-size:100%;}}*//*20px=1rem*//*
+@media screen and (max-width:450px){html{font-size:75%;}}*/
+
+* {margin: 0;padding: 0;}
+body {background: #e7e8eb;font-family: "微软雅黑","宋体";}
+a {text-decoration: none;}
+
+
+.rich_media {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 700px;
+    background: #fff;
+    border: solid #d9dadc;
+    border-width: 0 1px 1px;
+}
+.rich_whole {
+    width: 100%;
+}
+.rich_media_title {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+    border-bottom: 1px solid #e7e7eb;
+}
+.rich_media_meta {
+    margin-right: 0.5em;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    color: #607fa6;
+    font-style: normal;
+    font-weight: 400;
+}
+.text {
+    color: #8c8c8c;
+}
+.img-content {
+    width: 100%;
+}
+.rich_media_thumb img {
+    width: 100%;
+}
+.rich_media_content {
+    margin-top: 18px;
+}
+.rich_media_content img {
+    max-width: 100% !important;
+}
+.rich_media_content p {
+    margin-bottom: 10px;
+}
+.caller_info a {
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 18px;
+    color: #8d8d8d;
+}
+
+.caller_info a.read-source{
+    color:#607fa6;
+}
